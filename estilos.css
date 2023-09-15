@@ -14,14 +14,11 @@
   position: relative;
   height: 80px;
 }
-
-.contenido h1{
+.encabezado h1{
   margin-left: 5px;
-  line-height: 2em;
-}
-.contenido p{
-  margin-left: 5px;
-  line-height: 1.5em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .clearfix{
@@ -50,7 +47,14 @@
     left: 25%;
     height: 200px;
   }
- 
+  .contenido h1{
+    margin-left: 5px;
+    line-height: 2em;
+  }
+  .contenido p{
+    margin-left: 5px;
+    line-height: 1.5em;
+  }
   
 .menu ul {
     list-style-type: none;
